@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.five874.yourfitnessapp" version="2.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://phonegap.com/ns/1.0">
+    <name>Your Fitness App</name>
+    <description>The simple way to fitness</description>
+    <author email="info@5874.co.uk" href="http://5874.co.uk">5874</author>
+    <content src="index.html" />
+    <platform name="android">
+        <allow-intent href="*" />
+		<config-file parent="/resources" target="./res/values/strings.xml">
+			<string name="fb_app_id">668883186832811</string>
+			<string name="fb_app_name">YFA</string>
+		</config-file>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <allow-intent href="*" />
+    </platform>
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" launch-external="yes"/>
+	<allow-intent href="https://*/*" launch-external="yes"/>
+    <access origin="*" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="pgb-builder-version" value="2" />
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="handset" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="android-minSdkVersion" value="16" />
+    <icon src="icon.png" />
+    <icon platform="android" qualifier="ldpi" src="img/YFAiOS-57x57white.png" />
+    <icon platform="android" qualifier="mdpi" src="img/YFAiOS-72x72white.png" />
+    <icon platform="android" qualifier="hdpi" src="img/YFAiOS-114x114white.png" />
+    <icon platform="android" qualifier="xhdpi" src="img/YFAiOS-144x144white.png" />
+    <icon height="57" platform="ios" src="img/YFAiOS-57x57white.png" width="57" />
+    <icon height="72" platform="ios" src="img/YFAiOS-72x72white.png" width="72" />
+    <icon height="114" platform="ios" src="img/YFAiOS-114x114white.png" width="114" />
+    <icon height="120" platform="ios" src="img/YFAiOS-120x120white.png" width="120" />
+    <icon height="144" platform="ios" src="img/YFAiOS-144x144white.png" width="144" />
+    <icon height="180" platform="ios" src="img/icon-60@3x.png" width="180" />
+    <icon height="60" platform="ios" src="img/icon-60.png" width="60" />
+    <icon height="120" platform="ios" src="img/icon-60@2x.png" width="120" />
+    <icon height="76" platform="ios" src="img/icon-76.png" width="76" />
+    <icon height="152" platform="ios" src="img/icon-76@2x.png" width="152" />
+    <icon height="167" platform="ios" src="img/icon-83.5@2x.png" width="167" />
+    <icon height="29" platform="ios" src="img/icon-small.png" width="29" />
+    <icon height="58" platform="ios" src="img/icon-small@2x.png" width="58" />
+    <icon height="87" platform="ios" src="img/icon-small@3x.png" width="87" />
+    <icon height="40" platform="ios" src="img/icon-40.png" width="40" />
+    <icon height="80" platform="ios" src="img/icon-40@2x.png" width="80" />
+    <icon height="120" platform="ios" src="img/icon-40@3x.png" width="120" />
+    <icon height="50" platform="ios" src="img/icon-50.png" width="50" />
+    <icon height="100" platform="ios" src="img/icon-50@2x.png" width="100" />
+    <icon height="1024" width="1024" src="img/icon-1024.png" />
+    <splash src="splash.png" />
+    <splash platform="android" qualifier="port-ldpi" src="img/YFAPreview-320x480.png" />
+    <splash platform="android" qualifier="port-mdpi" src="img/YFAPreview-640x960.png" />
+    <splash platform="android" qualifier="port-hdpi" src="img/YFAPreview-640x1136.png" />
+    <splash platform="android" qualifier="port-xhdpi" src="img/YFAPreview-768x1024.png" />
+    <splash height="480" platform="ios" src="img/YFAPreview-320x480.png" width="320" />
+    <splash height="960" platform="ios" src="img/YFAPreview-640x960.png" width="640" />
+    <splash height="1136" platform="ios" src="img/YFAPreview-640x1136.png" width="640" />
+    <splash height="1024" platform="ios" src="img/YFAPreview-768x1024.png" width="768" />
+    <feature name="StatusBar">
+        <param name="ios-package" onload="true" value="CDVStatusBar" />
+    </feature>
+    <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
+    <plugin name="cordova-plugin-device" spec="^1.1.6" />
+    <plugin name="cordova-plugin-console" spec="^1.1.0" />
+    <plugin name="cordova-plugin-facebook4" spec="^1.7.4">
+        <variable name="APP_ID" value="668883186832811" />
+        <variable name="APP_NAME" value="YFA" />
+    </plugin>
+    <plugin name="onesignal-cordova-plugin" spec="2.3.1" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
+    <engine name="android" spec="~6.3.0" />
+    <engine name="ios" spec="~4.0.0" />
+    <plugin name="cordova-plugin-admob" spec="^3.2.4" />
+	<edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="overwrite">
+	    <string>Used to let us know where you're working out</string>
+	</edit-config>
+	<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="overwrite">
+	    <string>Used to let us know where you're working out while you're working out</string>
+	</edit-config>
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
+</widget>

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+            .center {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%)
+            }
+        </style>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+        <form><div id='container' class="center"></div></form>
+        <script>
+            var reCaptchaCallback = function(token) {
+                if (token != undefined) {
+                    Android.pushToken(token)
+                } else {
+                    Android.captchaFailed()
+                }
+            }
+            var captchaDiv = document.createElement("div")
+            captchaDiv.setAttribute('class', 'g-recaptcha')
+            captchaDiv.setAttribute('data-sitekey', Android.apiKey())
+            captchaDiv.setAttribute('data-callback', 'reCaptchaCallback')
+            var container = document.getElementById('container')
+            container.insertAdjacentElement('afterbegin', captchaDiv)
+        </script>
+    </body>
+</html>

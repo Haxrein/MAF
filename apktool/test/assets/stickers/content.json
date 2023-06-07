@@ -1,0 +1,196 @@
+[
+  {
+    "identifier": "stickers_gordon_ellis_brown",
+    "name": "TradingView X Gordon Ellis-Brown",
+    "publisher": "TradingView LLC",
+    "tray_image_file": "StickersPreview.png",
+    "publisher_website": "https://www.tradingview.com/",
+    "publisher_email": "",
+    "privacy_policy_website": "https://www.tradingview.com/privacy-policy/",
+    "license_agreement_website": "",
+    "android_play_store_link": "https://play.google.com/store/apps/details?id=com.tradingview.tradingviewapp",
+    "ios_app_store_link": "https://itunes.apple.com/app/tradingview/id1205990992",
+    "stickers": [
+      {
+        "image_file": "01_Bag_Holder.webp",
+        "emojis": [
+          "👜"
+        ]
+      },
+      {
+        "image_file": "02_Bitcoin.webp",
+        "emojis": [
+          "🍀"
+        ]
+      },
+      {
+        "image_file": "03_Buy_The_Dip.webp",
+        "emojis": [
+          "🤡"
+        ]
+      },
+      {
+        "image_file": "04_BUY.webp",
+        "emojis": [
+          "💸"
+        ]
+      },
+      {
+        "image_file": "05_Diamond_Hands.webp",
+        "emojis": [
+          "💎"
+        ]
+      },
+      {
+        "image_file": "06_Dislike.webp",
+        "emojis": [
+          "👎"
+        ]
+      },
+      {
+        "image_file": "07_Doge.webp",
+        "emojis": [
+          "🐕"
+        ]
+      },
+      {
+        "image_file": "08_FEW.webp",
+        "emojis": [
+          "📐"
+        ]
+      },
+      {
+        "image_file": "09_FUD.webp",
+        "emojis": [
+          "🔥"
+        ]
+      },
+      {
+        "image_file": "10_GM.webp",
+        "emojis": [
+          "☀️"
+        ]
+      },
+      {
+        "image_file": "11_HODL.webp",
+        "emojis": [
+          "🪢"
+        ]
+      },
+      {
+        "image_file": "12_Lambo.webp",
+        "emojis": [
+          "🐄"
+        ]
+      },
+      {
+        "image_file": "13_Leap.webp",
+        "emojis": [
+          "⚔️"
+        ]
+      },
+      {
+        "image_file": "14_Like.webp",
+        "emojis": [
+          "👍"
+        ]
+      },
+      {
+        "image_file": "15_Look.webp",
+        "emojis": [
+          "👀"
+        ]
+      },
+      {
+        "image_file": "16_Love.webp",
+        "emojis": [
+          "♥️"
+        ]
+      },
+      {
+        "image_file": "17_Moon.webp",
+        "emojis": [
+          "🌝"
+        ]
+      },
+      {
+        "image_file": "18_NGMI.webp",
+        "emojis": [
+          "🧠"
+        ]
+      },
+      {
+        "image_file": "19_OG.webp",
+        "emojis": [
+          "♞"
+        ]
+      },
+      {
+        "image_file": "20_Paper_Hands.webp",
+        "emojis": [
+          "🧾"
+        ]
+      },
+      {
+        "image_file": "21_REKT.webp",
+        "emojis": [
+          "💀"
+        ]
+      },
+      {
+        "image_file": "22_Rugged.webp",
+        "emojis": [
+          "🕳️"
+        ]
+      },
+      {
+        "image_file": "23_SELL.webp",
+        "emojis": [
+          "📉"
+        ]
+      },
+      {
+        "image_file": "24_SHILL.webp",
+        "emojis": [
+          "🐴"
+        ]
+      },
+      {
+        "image_file": "25_Short.webp",
+        "emojis": [
+          "⚖️"
+        ]
+      },
+      {
+        "image_file": "26_Tendies.webp",
+        "emojis": [
+          "🍗"
+        ]
+      },
+      {
+        "image_file": "27_Together_Strong.webp",
+        "emojis": [
+          "🙊"
+        ]
+      },
+      {
+        "image_file": "28_WAGMI.webp",
+        "emojis": [
+          "🐦"
+        ]
+      },
+      {
+        "image_file": "29_Whale.webp",
+        "emojis": [
+          "🐋"
+        ]
+      },
+      {
+        "image_file": "30_Yolo.webp",
+        "emojis": [
+          "🏆"
+        ]
+      }
+    ]
+  }
+]

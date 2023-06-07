@@ -1,0 +1,50 @@
+{
+  "menuItemOn": {
+    "id": 111,
+    "type": "program",
+    "title": "GH VIP",
+    "displayTitle": "GH VIP",
+    "image": "https:\/\/zoidberg.int.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2021\/07\/02\/250px-Gran-hermano_7464.jpg",
+    "subItems": [
+      {
+        "id": 112,
+        "description": "Votaciones",
+        "type": "votoSms",
+        "votoSms": {
+          "titleType": "text",
+          "priceAndConditions": "Coste SMS 1,45 \u20ac IVA incluido. N\u00ba att. al cliente 912031626 info@telpub.es. Mayores 18 a\u00f1os. Bases ante notario y en www.telecinco.es\/granhermanovip. Serevicio de ocio y entretenimiento 905 y SMS prestado por Telephone Publishing S.A. Apdo. de coreeos 10438, 28080 Madrid",
+          "smsUrl": "[\n{\n\"id\":\"Mila\",\n\"nombre\":\"Mila\",\n\"apellido\":\"Xim\u00e9nez\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh8_eff6.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Mila\"\n},\n{\n\"id\":\"Kiko\",\n\"nombre\":\"Kiko\",\n\"apellido\":null,\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/12\/kiko-jimenez-gh-vip_17a0.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Kiko\"\n},\n{\n\"id\":\"Maestro\",\n\"nombre\":\"Maestro\",\n\"apellido\":\"Joao\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/12\/Maestro_Joao_62c0.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Maestro\"\n},\n{\n\"id\":\"Adara\",\n\"nombre\":\"Adara\",\n\"apellido\":null,\n\"Imagen\":\"Imagen: https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh1_c24a.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Adara\"\n},\n{\n\"id\":\"Nuria\",\n\"nombre\":\"Nuria\",\n\"apellido\":\"MH\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh10_cc5c.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Nuria\"\n},\n{\n\"id\":\"Alba\",\n\"nombre\":\"Alba\",\n\"apellido\":\"Carrillo\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh2_be9c.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Alba\"\n},\n{\n\"id\":\"Noem\u00ed\",\n\"nombre\":\"Noem\u00ed\",\n\"apellido\":\"Salazar\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh9_4d3d.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Noem\u00ed\"\n},\n{\n\"id\":\"Estela\",\n\"nombre\":\"Estela\",\n\"apellido\":\"Grande\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh6_a10a.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Estela\"\n},\n{\n\"id\":\"Cejas\",\n\"nombre\":\"El Cejas\",\n\"apellido\":null,\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh5_562e.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Cejas\"\n},\n{\n\"id\":\"Hugo\",\n\"nombre\":\"Hugo\",\n\"apellido\":\"Castej\u00f3n\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh7_21d3.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Hugo\"\n},\n{\n\"id\":\"Antonio\",\n\"nombre\":\"Antonio\",\n\"apellido\":\"David\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/12\/Antonio-David_BJ_2113.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Antonio\"\n},\n{\n\"id\":\"Gianmarco\",\n\"nombre\":\"Gianmarco\",\n\"apellido\":null,\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/12\/Gianmarco_BJ_-_copia_14a7.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Gianmarco\"\n},\n{\n\"id\":\"Irene\",\n\"nombre\":\"Irene\",\n\"apellido\":null,\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/12\/Irene_88b3.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Irene\"\n},\n{\n\"id\":\"Dinio\",\n\"nombre\":\"Dinio\",\n\"apellido\":null,\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh4_56b6.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Dinio\"\n},\n{\n\"id\":\"Anabel\",\n\"nombre\":\"Anabel\",\n\"apellido\":\"Pantoja\",\n\"Imagen\":\"https:\/\/album.mediaset.es\/cimg\/9999\/2019\/09\/11\/gh3_-_copia_0770.jpg\",\n\"numCorto\":\"27050\",\n\"alias\":\"GANARAPP\",\n\"subAlias\":\"Anabel\"\n}\n]",
+          "useConditionsTitle": "T\u00edtulo condiciones de uso",
+          "useConditionsText": "Texto condiciones de uso texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso  texto condiciones de uso",
+          "titleText": "Votaciones",
+          "_elapsedSeconds": 0.00040000000000000002
+        },
+        "title": "Votaciones",
+        "displayTitle": "Votaciones",
+        "alertMessage": "Mensaje alerta votaciones",
+        "image": "https:\/\/zoidberg.int.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2021\/07\/02\/Votaciones_4e58.jpg",
+        "extraParams": [
+          {
+            "type": "url"
+          }
+        ],
+        "initDate": "02\/07\/2021 00:00",
+        "endDate": "02\/07\/2040 05:00",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0033999999999999998
+      }
+    ],
+    "extraParams": [
+      {
+        "type": "url"
+      }
+    ],
+    "initDate": "01\/07\/2021 00:00",
+    "endDate": "01\/07\/2040 00:00",
+    "_elapsedSeconds": 0.012699999999999999
+  },
+  "_elapsedSeconds": 0.012999999999999999
+}

@@ -1,0 +1,459 @@
+{
+    "languages": {
+        "available": [
+            "ar",
+            "bg",
+            "ca",
+            "cs",
+            "da",
+            "de",
+            "el",
+            "en",
+            "es",
+            "et",
+            "fi",
+            "fr",
+            "hr",
+            "hu",
+            "it",
+            "ja",
+            "ko",
+            "lt",
+            "lv",
+            "ms",
+            "nl",
+            "pl",
+            "pt-PT",
+            "ro",
+            "ru",
+            "sk",
+            "sl",
+            "sv",
+            "sr",
+            "th",
+            "tr",
+            "uk",
+            "vi",
+            "zh-CN",
+            "zh-TW",
+            "no",
+            "pt-BR",
+            "az-AZ",
+            "bn-IN",
+            "fil",
+            "he",
+            "hi-IN",
+            "id",
+            "mk-MK",
+            "sw"
+        ],
+        "default": "en",
+        "defaultCountries": {
+            "pt": "PT",
+            "az": "AZ",
+            "bn": "IN",
+            "hi": "IN",
+            "mk": "MK",
+            "zh": "CN"
+        },
+        "fallbackCodes": {
+            "nb": "no"
+        }
+    },
+    "purposes": [
+        {
+            "id": "cookies",
+            "iabId": "1",
+            "name": "information_storage_and_access_19227997",
+            "description": "information_storage_and_access_description_19227997"
+        },
+        {
+            "id": "advertising_personalization",
+            "iabId": "2",
+            "name": "personalisation_20601824",
+            "description": "personalisation_description_20601824"
+        },
+        {
+            "id": "ad_delivery",
+            "iabId": "3",
+            "name": "ad_selection_delivery_reporting_3fb55e57",
+            "description": "ad_selection_delivery_reporting_description_3fb55e57"
+        },
+        {
+            "id": "content_personalization",
+            "iabId": "4",
+            "name": "content_selection_delivery_reporting_10c29447",
+            "description": "content_selection_delivery_reporting_description_10c29447"
+        },
+        {
+            "id": "analytics",
+            "iabId": "5",
+            "name": "measurement_268d0e0",
+            "description": "measurement_description_268d0e0"
+        },
+        {
+            "id": "geo_ads",
+            "name": "geo_ads_name",
+            "description": "geo_ads_description"
+        },
+        {
+            "id": "geo_marketing_studies",
+            "name": "geo_marketing_studies_name",
+            "description": "geo_marketing_studies_description"
+        }
+    ],
+    "purposesV2": [
+        {
+            "id": "cookies",
+            "iabId": "1",
+            "name": "purpose_1_name",
+            "description": "purpose_1_description",
+            "descriptionLegal": "purpose_1_description_legal"
+        },
+        {
+            "id": "select_basic_ads",
+            "iabId": "2",
+            "name": "purpose_2_name",
+            "description": "purpose_2_description",
+            "descriptionLegal": "purpose_2_description_legal"
+        },
+        {
+            "id": "create_ads_profile",
+            "iabId": "3",
+            "name": "purpose_3_name",
+            "description": "purpose_3_description",
+            "descriptionLegal": "purpose_3_description_legal"
+        },
+        {
+            "id": "select_personalized_ads",
+            "iabId": "4",
+            "name": "purpose_4_name",
+            "description": "purpose_4_description",
+            "descriptionLegal": "purpose_4_description_legal"
+        },
+        {
+            "id": "create_content_profile",
+            "iabId": "5",
+            "name": "purpose_5_name",
+            "description": "purpose_5_description",
+            "descriptionLegal": "purpose_5_description_legal"
+        },
+        {
+            "id": "select_personalized_content",
+            "iabId": "6",
+            "name": "purpose_6_name",
+            "description": "purpose_6_description",
+            "descriptionLegal": "purpose_6_description_legal"
+        },
+        {
+            "id": "measure_ad_performance",
+            "iabId": "7",
+            "name": "purpose_7_name",
+            "description": "purpose_7_description",
+            "descriptionLegal": "purpose_7_description_legal"
+        },
+        {
+            "id": "measure_content_performance",
+            "iabId": "8",
+            "name": "purpose_8_name",
+            "description": "purpose_8_description",
+            "descriptionLegal": "purpose_8_description_legal"
+        },
+        {
+            "id": "market_research",
+            "iabId": "9",
+            "name": "purpose_9_name",
+            "description": "purpose_9_description",
+            "descriptionLegal": "purpose_9_description_legal"
+        },
+        {
+            "id": "improve_products",
+            "iabId": "10",
+            "name": "purpose_10_name",
+            "description": "purpose_10_description",
+            "descriptionLegal": "purpose_10_description_legal"
+        }
+    ],
+    "specialFeatures": [
+        {
+            "id": "geolocation_data",
+            "iabId": "1",
+            "name": "special_feature_1_name",
+            "description": "special_feature_1_description",
+            "descriptionLegal": "special_feature_1_description_legal"
+        },
+        {
+            "id": "device_characteristics",
+            "iabId": "2",
+            "name": "special_feature_2_name",
+            "description": "special_feature_2_description",
+            "descriptionLegal": "special_feature_2_description_legal"
+        }
+    ],
+    "vendors": [
+        {
+            "id": "amazon",
+            "name": "Amazon",
+            "purposeIds": [
+                "cookies",
+                "advertising_personalization",
+                "content_personalization",
+                "ad_delivery",
+                "analytics",
+                "select_basic_ads",
+                "create_ads_profile",
+                "select_personalized_ads",
+                "create_content_profile",
+                "select_personalized_content",
+                "measure_ad_performance",
+                "measure_content_performance",
+                "market_research",
+                "improve_products"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://aps.amazon.com/aps/privacy-policy/index.html",
+            "namespace": "didomi"
+        },
+        {
+            "id": "facebook",
+            "name": "Facebook",
+            "purposeIds": [
+                "cookies"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://www.facebook.com/policy.php",
+            "namespace": "didomi"
+        },
+        {
+            "id": "twitter",
+            "name": "Twitter",
+            "purposeIds": [
+                "cookies"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://twitter.com/privacy",
+            "namespace": "didomi"
+        },
+        {
+            "id": "whatsapp",
+            "name": "Whatsapp",
+            "purposeIds": [
+                "cookies"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://www.whatsapp.com/legal/#privacy-policy",
+            "namespace": "didomi"
+        },
+        {
+            "id": "google",
+            "name": "Google",
+            "purposeIds": [
+                "cookies",
+                "advertising_personalization",
+                "content_personalization",
+                "ad_delivery",
+                "analytics",
+                "select_basic_ads",
+                "create_ads_profile",
+                "select_personalized_ads",
+                "create_content_profile",
+                "select_personalized_content",
+                "measure_ad_performance",
+                "measure_content_performance",
+                "market_research",
+                "improve_products"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://policies.google.com/privacy",
+            "namespace": "didomi",
+            "namespaces": {
+                "iab2": "755"
+            }
+        },
+        {
+            "id": "google-adsense",
+            "name": "Google Adsense",
+            "purposeIds": [
+                "cookies",
+                "advertising_personalization",
+                "content_personalization",
+                "ad_delivery",
+                "analytics",
+                "select_basic_ads",
+                "create_ads_profile",
+                "select_personalized_ads",
+                "create_content_profile",
+                "select_personalized_content",
+                "measure_ad_performance",
+                "measure_content_performance",
+                "market_research",
+                "improve_products"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://policies.google.com/privacy",
+            "namespace": "didomi"
+        },
+        {
+            "id": "google-adx",
+            "name": "Google Adx",
+            "purposeIds": [
+                "cookies",
+                "advertising_personalization",
+                "content_personalization",
+                "ad_delivery",
+                "analytics",
+                "select_basic_ads",
+                "create_ads_profile",
+                "select_personalized_ads",
+                "create_content_profile",
+                "select_personalized_content",
+                "measure_ad_performance",
+                "measure_content_performance",
+                "market_research",
+                "improve_products"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://policies.google.com/privacy",
+            "namespace": "didomi"
+        },
+        {
+            "id": "google-dfp",
+            "name": "Google DFP",
+            "purposeIds": [
+                "cookies",
+                "advertising_personalization",
+                "content_personalization",
+                "ad_delivery",
+                "analytics",
+                "select_basic_ads",
+                "create_ads_profile",
+                "select_personalized_ads",
+                "create_content_profile",
+                "select_personalized_content",
+                "measure_ad_performance",
+                "measure_content_performance",
+                "market_research",
+                "improve_products"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://policies.google.com/privacy",
+            "namespace": "didomi"
+        },
+        {
+            "id": "addthis",
+            "name": "AddThis",
+            "purposeIds": [
+                "cookies",
+                "advertising_personalization",
+                "content_personalization",
+                "ad_delivery",
+                "analytics",
+                "select_basic_ads",
+                "create_ads_profile",
+                "select_personalized_ads",
+                "create_content_profile",
+                "select_personalized_content",
+                "measure_ad_performance",
+                "measure_content_performance",
+                "market_research",
+                "improve_products"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "http://www.addthis.com/privacy",
+            "namespace": "didomi"
+        },
+        {
+            "id": "teemo",
+            "name": "Teemo",
+            "purposeIds": [
+                "geo_ads",
+                "geo_marketing_studies",
+                "cookies",
+                "advertising_personalization",
+                "ad_delivery",
+                "analytics",
+                "select_basic_ads",
+                "create_ads_profile",
+                "select_personalized_ads",
+                "create_content_profile",
+                "select_personalized_content",
+                "measure_ad_performance",
+                "measure_content_performance",
+                "market_research",
+                "improve_products"
+            ],
+            "iabId": "124",
+            "legIntPurposeIds": [],
+            "policyUrl": "https://teemo.co/privacy/",
+            "namespace": "didomi"
+        },
+        {
+            "id": "salesforce",
+            "name": "Salesforce",
+            "purposeIds": [
+                "cookies",
+                "advertising_personalization",
+                "content_personalization",
+                "ad_delivery",
+                "analytics",
+                "select_basic_ads",
+                "create_ads_profile",
+                "select_personalized_ads",
+                "create_content_profile",
+                "select_personalized_content",
+                "measure_ad_performance",
+                "measure_content_performance",
+                "market_research",
+                "improve_products"
+            ],
+            "legIntPurposeIds": [],
+            "policyUrl": "https://www.salesforce.com/company/privacy/",
+            "namespace": "didomi"
+        }
+    ],
+    "gdprCountryCodes": [
+        "AD",
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "EL",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GF",
+        "GG",
+        "GI",
+        "GP",
+        "GR",
+        "HR",
+        "HU",
+        "JE",
+        "IE",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MC",
+        "MF",
+        "MT",
+        "MQ",
+        "NL",
+        "PL",
+        "PT",
+        "RE",
+        "RO",
+        "SE",
+        "SI",
+        "SK",
+        "SM",
+        "VA",
+        "YT"
+    ]
+}

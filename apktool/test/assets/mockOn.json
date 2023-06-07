@@ -1,0 +1,301 @@
+{
+  "menuItemOn": {
+    "id": 107,
+    "type": "program",
+    "title": "Sola\/Solo",
+    "displayTitle": "Sola\/Solo",
+    "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/solo-sola_1498_-1_1498.jpg",
+    "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/solo-sola_1498_1498.jpg",
+    "subItems": [
+      {
+        "id": 109,
+        "description": "Directo 24h",
+        "type": "live",
+        "title": "Directo 24h",
+        "displayTitle": "Directo 24h",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Multicanal-Thumbnail_cd2c_cd2c.png",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Multicanal-Destacado-iPhone_1787_1787.png",
+        "extraParams": [
+          {
+            "type": "alias",
+            "title": "Directo 24h",
+            "value": "boing"
+          }
+        ],
+        "initDate": "07\/09\/2020 10:45",
+        "endDate": "01\/01\/2040 00:00",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0044999999999999997
+      },
+      {
+        "id": 111,
+        "description": "Encuesta",
+        "type": "vote",
+        "title": "Encuesta",
+        "displayTitle": "\u00a1Encuesta!",
+        "alertMessage": "La votaci\u00f3n no est\u00e1 activa en este momento",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Vota-Thumbnail_f46b_f46b.png",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Vota-Destacado-iPhone_bd98_bd98.png",
+        "extraParams": [
+          {
+            "type": "webview",
+            "title": "Encuesta1",
+            "value": "http:\/\/telecinco.rwd.pre.aws.tele5.int\/20n\/prueba-mitele-on_18_3042120003.html?elements=body"
+          }
+        ],
+        "initDate": "26\/09\/2020 19:00",
+        "endDate": "04\/11\/2030 06:00",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0032000000000000002
+      },
+      {
+        "id": 113,
+        "description": "URL",
+        "type": "url",
+        "link": {
+          "title": "URL",
+          "href": "\/\/mitele.rwd.pre.aws.tele5.int:8601\/suscripciones?elements=body",
+          "target": "_blank",
+          "_elapsedSeconds": 0.001
+        },
+        "title": "URL",
+        "displayTitle": "URL",
+        "alertMessage": "Muy pronto, disfruta de experiencias exclusivas para miembros del Club de mitele PLUS",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/miteleCLUB-Thumbnail_b7e2_b7e2.png",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/MiteleCLUB-Destacado-iPad_6f43_6f43.png",
+        "extraParams": [
+          {
+            "type": "webview",
+            "title": "Club",
+            "value": "http:\/\/mitele.rwd.pre.aws.tele5.int\/suscripciones?elements=body"
+          }
+        ],
+        "initDate": "24\/09\/2020 10:30",
+        "endDate": "28\/09\/2030 23:59",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0074999999999999997
+      },
+      {
+        "id": 115,
+        "description": "Video 360",
+        "type": "video360",
+        "miteleOnVideo360Id": 4,
+        "title": "Video 360",
+        "displayTitle": "Video 360",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Agenda-Thumbnail_620c_-1_620c.png",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Agenda-Destacado-iPad_7702_7702.png",
+        "extraParams": [
+          {
+            "type": "url"
+          }
+        ],
+        "initDate": "25\/09\/2020 10:00",
+        "endDate": "25\/09\/2030 20:00",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0047999999999999996
+      },
+      {
+        "id": 117,
+        "description": "Personaje",
+        "type": "characters",
+        "miteleOnCharacterId": 4,
+        "title": "Personaje",
+        "displayTitle": "Personajes",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/09\/04\/16-9-antesdespues_336x189_0b99.jpg",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/09\/04\/destacado-antesdespues_696x155_d668.jpg",
+        "extraParams": [
+          {
+            "type": "webview",
+            "title": "",
+            "value": ""
+          }
+        ],
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0045999999999999999
+      },
+      {
+        "id": 118,
+        "description": "Navegaci\u00f3n interna",
+        "type": "navInt",
+        "title": "Navegaci\u00f3n interna",
+        "displayTitle": "Navegaci\u00f3n interna",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Agenda-Thumbnail_620c_-1_620c.png",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Agenda-Destacado-iPad_7702_7702.png",
+        "extraParams": [
+          {
+            "type": "url",
+            "title": "Calendario",
+            "value": "https:\/\/www.mitele.pre\/calendario\/"
+          }
+        ],
+        "initDate": "23\/09\/2020 10:30",
+        "endDate": "29\/09\/2050 08:59",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0030000000000000001
+      },
+      {
+        "id": 119,
+        "description": "Quiz",
+        "type": "program",
+        "title": "Quiz",
+        "displayTitle": "Quiz",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.00059999999999999995
+      },
+      {
+        "id": 123,
+        "description": "Calendario",
+        "type": "navInt",
+        "title": "Calendario",
+        "displayTitle": "Calendario",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/09\/02\/directo-solo-sola_4ab3.jpg",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/09\/04\/16-9-antesdespues_336x189_0b99.jpg",
+        "extraParams": [
+          {
+            "type": "url",
+            "title": "Calendario",
+            "value": "https:\/\/www.mitele.pre\/calendario\/"
+          }
+        ],
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0038999999999999998
+      },
+      {
+        "id": 124,
+        "description": "Vota SMS1",
+        "type": "votoSms",
+        "votoSms": {
+          "titleType": "text",
+          "priceAndConditions": "1.5\u20ac",
+          "smsUrl": "estoaunnoesta",
+          "useConditionsTitle": "Este es el titulo de las condiciones de uso",
+          "useConditionsText": "Este es el texto de las condiciones de uso.",
+          "titleText": "TextoTitulo",
+          "_elapsedSeconds": 0.00020000000000000001
+        },
+        "title": "Vota SMS1",
+        "displayTitle": "Vota SMS1",
+        "extraParams": [
+          {
+            "type": "url"
+          }
+        ],
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.001
+      },
+      {
+        "id": 126,
+        "description": "Prueba webview T5",
+        "type": "vote",
+        "title": "Prueba webview T5",
+        "displayTitle": "Prueba webview T5",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/09\/02\/directo-solo-sola_4ab3.jpg",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Agenda-Destacado-iPad_7702_7702.png",
+        "extraParams": [
+          {
+            "type": "webview",
+            "title": "webview",
+            "value": "http:\/\/telecinco.rwd.pre.aws.tele5.int\/20n\/art-imagen-cuerpo_18_3115095001.html?elements=body"
+          }
+        ],
+        "initDate": "05\/04\/2021 00:00",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0028999999999999998
+      },
+      {
+        "id": 131,
+        "description": "contenido",
+        "type": "url",
+        "link": {
+          "title": "Prueba Charo - Player VOD \u00bfCambios?",
+          "href": "\/\/mitele.rwd.pre.aws.tele5.int\/20n\/programa-charo\/2021\/prueba-charo-player-vod-40_1008941575002\/player\/",
+          "target": "_self",
+          "_elapsedSeconds": 0.029100000000000001
+        },
+        "title": "contenido",
+        "displayTitle": "Episodio",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/08\/25\/clipping_BW4YAg_0ab1_0ab1.jpg",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/08\/25\/Cuc5Pa9HunGao38M7ccrA5_ec6c.jpg",
+        "extraParams": [
+          {
+            "type": "url"
+          }
+        ],
+        "initDate": "24\/09\/2020 10:00",
+        "endDate": "29\/09\/2030 20:00",
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.033599999999999998
+      },
+      {
+        "id": 140,
+        "description": "Voto sms - prueba 2",
+        "type": "votoSms",
+        "votoSms": {
+          "titleType": "image",
+          "priceAndConditions": "Coste SMS 1,45 \u20ac IVA incluido. N\u00ba att. al cliente 912031626 info@telpub.es. Mayores 18 a\u00f1os. Bases ante notario y en www.telecinco.es\/granhermanovip. Serevicio de ocio y entretenimiento 905 y SMS prestado por Telephone Publishing S.A. Apdo. de coreeos 10438, 28080 Madrid",
+          "smsUrl": "sms url",
+          "useConditionsTitle": "T\u00edtulo condiciones de uso",
+          "useConditionsText": "texto condiciones de uso",
+          "titleImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/09\/04\/16-9-antesdespues_336x189_0b99.jpg",
+          "_elapsedSeconds": 0.0014
+        },
+        "title": "Voto sms - prueba 2",
+        "displayTitle": "voto sms",
+        "image": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/11\/12\/Agenda-Destacado-iPad_7702_7702.png",
+        "extraImage": "https:\/\/zoidberg.pre.3d99a4cb092e6d20ff56d80b9efd9a8f8802ec81.es:8602\/cimg\/90002003\/2020\/08\/25\/Cuc5Pa9HunGao38M7ccrA5_ec6c.jpg",
+        "extraParams": [
+          {
+            "type": "url"
+          }
+        ],
+        "offers": [
+          "FREE"
+        ],
+        "onlyClub": false,
+        "_elapsedSeconds": 0.0064999999999999997
+      }
+    ],
+    "extraParams": [
+      {
+        "type": "url"
+      }
+    ],
+    "initDate": "08\/09\/2020 10:30",
+    "endDate": "06\/12\/2040 00:00",
+    "_elapsedSeconds": 0.086400000000000005
+  },
+  "_elapsedSeconds": 0.086800000000000002
+}

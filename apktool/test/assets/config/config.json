@@ -1,0 +1,1949 @@
+{
+  "subscriptions": [
+    {
+      "name": "observePushStream",
+      "unsubscribeName": "unobservePushStream",
+      "bridgeName": "Chart$observePushStream",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["AlertsPushStreamMessage"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["AlertsPushStreamMessageDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnLayoutChanged",
+      "unsubscribeName": "unsubscribeOnLayoutChanged",
+      "bridgeName": "Chart$onLayoutChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "MultiLayout"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "MultiLayoutDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "subscribeOnReplayToolbarVisible",
+      "unsubscribeName": "unsubscribeOnReplayToolbarVisible",
+      "bridgeName": "Chart$subscribeOnReplayToolbarVisible",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnChartReady",
+      "unsubscribeName": "unsubscribeOnChartReady",
+      "bridgeName": "Chart$onReady",
+      "input": [],
+      "callback": {
+          "typePackageName": "java.lang",
+          "typeSimpleNames": ["Object"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "NullDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnFavoriteIntervalsChanged",
+      "unsubscribeName": "unsubscribeOnFavoriteIntervalsChanged",
+      "bridgeName": "Chart$onFavoriteIntervalsChanged",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["IntervalsData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["IntervalsDataDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnCustomIntervalChanged",
+      "unsubscribeName": "unsubscribeOnCustomIntervalChanged",
+      "bridgeName": "Chart$onCustomIntervalChanged",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["IntervalsData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["IntervalsDataDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnFavoriteChartTypesChanged",
+      "unsubscribeName": "unsubscribeOnFavoriteChartTypesChanged",
+      "bridgeName": "Chart$onFavoriteChartStylesChanged",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["ChartTypesData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["ChartTypesDataDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnHideAllDrawingsChanged",
+      "unsubscribeName": "unsubscribeOnHideAllDrawingsChanged",
+      "bridgeName": "Chart$onHideAllDrawingsChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnRangesChanged",
+      "unsubscribeName": "unsubscribeOnRangesChanged",
+      "bridgeName": "Chart$onRangesChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["DateRanges"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["DateRangesDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnHideAllIndicatorsChanged",
+      "unsubscribeName": "unsubscribeOnHideAllIndicatorsChanged",
+      "bridgeName": "Chart$onHideAllIndicatorsChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnHideModeInfoChanged",
+      "unsubscribeName": "unsubscribeOnHideModeInfoChanged",
+      "bridgeName": "Chart$onHideModeInfoChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["HideModeInfo"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["HideInfoDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnSelectedLineToolChanged",
+      "unsubscribeName": "unsubscribeOnSelectedLineToolChanged",
+      "bridgeName": "Chart$onSelectedLineToolChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["LineTool"]
+      },
+      "serializer": {
+        "typePackageName": " com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["LineToolDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnLockStatusChanged",
+      "unsubscribeName": "unsubscribeOnLockStatusChanged",
+      "bridgeName": "Chart$onLockStatusChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnHasChartChanges",
+      "unsubscribeName": "unsubscribeOnHasChartChanges",
+      "bridgeName": "Chart$subscribeOnHasChartChanges",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnChartNameIsChanged",
+      "unsubscribeName": "unsubscribeOnChartNameIsChanged",
+      "bridgeName": "Chart$subscribeOnChartNameIsChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "StringDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnMagnetModeChanged",
+      "unsubscribeName": "unsubscribeOnMagnetModeChanged",
+      "bridgeName": "Chart$onMagnetModeChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["MagnetInfo"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["MagnetInfoDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnUndoRedoStateChanged",
+      "unsubscribeName": "unsubscribeOnUndoRedoStateChanged",
+      "bridgeName": "Chart$subscribeOnUndoRedoStateChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["UndoRedoState"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["UndoRedoStateDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnViewModeChanged",
+      "unsubscribeName": "unsubscribeOnViewModeChanged",
+      "bridgeName": "Chart$subscribeOnViewModeChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["LayoutInfo"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["LayoutInfoDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnSymbolChanged",
+      "unsubscribeName": "unsubscribeOnSymbolChanged",
+      "bridgeName": "Chart$subscribeOnSymbolChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "StringDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnIntervalChanged",
+      "unsubscribeName": "unsubscribeOnIntervalChanged",
+      "bridgeName": "Chart$subscribeOnIntervalChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "Interval"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "IntervalDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "subscribeOnBrokerConnectionStatus",
+      "unsubscribeName": "unsubscribeOnBrokerConnectionStatus",
+      "bridgeName": "Chart$onBrokerConnectionStatus",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "TradingConnectionStatus"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "TradingConnectionStatusDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "subscribeOnSymbolSearchRequest",
+      "unsubscribeName": "unsubscribeOnSymbolSearchRequest",
+      "bridgeName": "Chart$onSymbolSearchRequest",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Object"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "NullDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnAuthRequest",
+      "unsubscribeName": "unsubscribeOnAuthRequest",
+      "bridgeName": "Chart$onAuthRequest",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.auth",
+        "typeSimpleNames": ["AuthRequest"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["AuthRequestDeserializer"]
+      }
+    },{
+      "name": "subscribeOnFavoriteLineToolsChanged",
+      "unsubscribeName": "unsubscribeOnFavoriteLineToolsChanged",
+      "bridgeName": "Chart$onFavoriteLineToolsChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["LineTools"]
+      },
+      "serializer": {
+        "typePackageName": " com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["LineToolsDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnScreenshotReady",
+      "unsubscribeName": "unsubscribeOnScreenshotReady",
+      "bridgeName": "Chart$onScreenshotReady",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "StringDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnActiveChartChanged",
+      "unsubscribeName": "unsubscribeOnActiveChartChanged",
+      "bridgeName": "Chart$subscribeOnActiveChartChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Object"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "NullDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnPublishChartResult",
+      "unsubscribeName": "unsubscribeOnPublishChartResult",
+      "bridgeName": "Chart$onPublishChartResult",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["ChartPublishResult"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "ChartPublishResultDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "subscribeOnAlertRunning",
+      "unsubscribeName": "unsubscribeOnAlertRunning",
+      "bridgeName": "Chart$onAlertRunning",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Object"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "Primitive",
+          "NullDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "subscribeOnInitialError",
+      "unsubscribeName": "unsubscribeOnInitialError",
+      "bridgeName": "Chart$subscribeOnInitialError",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Object"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "Primitive",
+          "NullDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "subscribeOnPublicationState",
+      "unsubscribeName": "unsubscribeOnPublicationState",
+      "bridgeName": "Chart$subscribeOnPublicationState",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["PublicationState"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["PublishingStateDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnChartTypeChanged",
+      "unsubscribeName": "unsubscribeOnChartTypeChanged",
+      "bridgeName": "Chart$onChartTypeChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "ChartType"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "ChartTypeDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "subscribeOnAnyDialogVisibilityChanged",
+      "unsubscribeName": "unsubscribeOnAnyDialogVisibilityChanged",
+      "bridgeName": "Chart$subscribeOnAnyDialogVisibilityChanged",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["DialogOrPanelVisibility"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["ChartDialogVisibilityDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnGoProDialog",
+      "unsubscribeName": "unsubscribeOnGoProDialog",
+      "bridgeName": "Chart$onGoProDialog",
+      "input": [
+        {
+          "name": "hiddenFeaturesArray",
+          "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+          "typeSimpleNames": [
+            "FeatureInfo"
+          ]
+        }
+      ],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "StringDeserializer"]
+      }
+    },
+    {
+      "name": "subscribeOnFavoriteDrawingsToolbarVisibilityChange",
+      "unsubscribeName": "unsubscribeOnFavoriteDrawingsToolbarVisibilityChange",
+      "bridgeName": "Chart$subscribeOnFavoriteDrawingsToolbarVisibilityChange",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    }
+  ],
+"methods": [
+  {
+    "name": "zoomOut",
+    "bridgeName": "Chart$zoomOut",
+    "input": []
+  },
+  {
+    "name": "canZoomOut",
+    "bridgeName": "Chart$canZoomOut",
+    "input": [],
+    "callback": {
+      "typePackageName": "java.lang",
+      "typeSimpleNames": [
+        "Boolean"
+      ]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": [
+        "Primitive",
+        "BooleanDeserializer"
+      ]
+    }
+  },
+  {
+    "name": "forceInitialError",
+    "bridgeName": "Chart$forceInitialError",
+    "input": []
+  },
+  {
+    "name": "openEditAlertDialog",
+    "bridgeName": "Chart$openEditAlertDialog",
+    "input": [
+      {
+        "name": "id",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Long"]
+      }
+    ],
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "LongDeserializer"]
+    }
+  },
+  {
+    "name": "fetchChartType",
+    "bridgeName": "Chart$fetchChartType",
+    "input": [],
+    "callback": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+      "typeSimpleNames": ["ChartType"]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["ChartTypeDeserializer"]
+    }
+  },
+  {
+    "name": "requestLayoutInfo",
+    "bridgeName": "Chart$requestLayoutInfo",
+    "input": [],
+    "callback": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+      "typeSimpleNames": [
+        "LayoutInfo"
+      ]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": [
+        "LayoutInfoDeserializer"
+      ]
+    }
+  },
+  {
+    "name": "requestSelectedLayoutName",
+      "bridgeName": "Chart$requestSelectedLayoutName",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "MultiLayout"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "MultiLayoutDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "setLayout",
+      "bridgeName": "Chart$setLayout",
+      "input": [
+        {
+          "name": "layout",
+          "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+          "typeSimpleNames": [
+            "MultiLayout"
+          ]
+        },
+        {
+          "name": "options",
+          "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+          "typeSimpleNames": [
+            "SetLayoutOptions"
+          ]
+        }
+      ],
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "MultiLayoutDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "requestTradingLogs",
+      "bridgeName": "Chart$requestTradingLogs",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "TradingLogs"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "TradingLogsDeserializer"
+        ]
+      }
+    },
+  {
+    "name": "isBrokerFilterEnabled",
+    "bridgeName": "Chart$isBrokerFilterEnabled",
+    "input": [],
+    "callback": {
+      "typePackageName": "java.lang",
+      "typeSimpleNames": [
+        "Boolean"
+      ]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": [
+        "Primitive",
+        "BooleanDeserializer"
+      ]
+    }
+  },
+  {
+    "name": "replayToolbarVisibility",
+      "bridgeName": "Chart$replayToolbarVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Boolean"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "Primitive",
+          "BooleanDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "tradingPanelPopupHide",
+      "bridgeName": "Chart$tradingPanelPopupHide",
+      "input": []
+    },
+    {
+      "name": "financialsVisibility",
+      "bridgeName": "Chart$financialsVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Boolean"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "Primitive",
+          "BooleanDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "financialsChartsVisibility",
+      "bridgeName": "Chart$financialsChartsVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Boolean"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "Primitive",
+          "BooleanDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "rangesDrawerVisibility",
+      "bridgeName": "Chart$rangesDrawerVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Boolean"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "Primitive",
+          "BooleanDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "symbolDetailVisibility",
+      "bridgeName": "Chart$symbolDetailVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Boolean"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "Primitive",
+          "BooleanDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "brokerConnectionStatus",
+      "bridgeName": "Chart$brokerConnectionStatus",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "TradingConnectionStatus"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "TradingConnectionStatusDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "publicationDialogVisibility",
+      "bridgeName": "Chart$publicationDialogVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Boolean"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "compareVisibility",
+      "bridgeName": "Chart$compareVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "invocationsVisibility",
+      "bridgeName": "Chart$invocationsVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "templatesDrawerVisibility",
+      "bridgeName": "Chart$templatesDrawerVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "indicatorsVisibility",
+      "bridgeName": "Chart$indicatorsVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "rangesDrawerClose",
+      "bridgeName": "Chart$rangesDrawerClose",
+      "input": []
+    },
+    {
+      "name": "closeMobileChartPicker",
+      "bridgeName": "Chart$closeMobileChartPicker",
+      "input": []
+    },
+    {
+      "name": "templatesDrawerHide",
+      "bridgeName": "Chart$templatesDrawerHide",
+      "input": []
+    },
+    {
+      "name": "financialsHide",
+      "bridgeName": "Chart$financialsHide",
+      "input": []
+    },
+    {
+      "name": "symbolDetailHide",
+      "bridgeName": "Chart$symbolDetailHide",
+      "input": []
+    },
+    {
+      "name": "financialsChartsHide",
+      "bridgeName": "Chart$financialsChartsHide",
+      "input": []
+    },
+    {
+    "name": "alertManagerHide",
+      "bridgeName": "Chart$alertManagerHide",
+      "input": []
+    },
+    {
+      "name": "compareHide",
+      "bridgeName": "Chart$compareHide",
+      "input": []
+    },
+    {
+      "name": "invocationsHide",
+      "bridgeName": "Chart$invocationsHide",
+      "input": []
+    },
+    {
+      "name": "publicationDialogHide",
+      "bridgeName": "Chart$publicationDialogHide",
+      "input": []
+    },
+    {
+      "name": "indicatorsHide",
+      "bridgeName": "Chart$indicatorsHide",
+      "input": []
+    },
+    {
+      "name": "closePopupsAndDialogs",
+      "bridgeName": "Chart$closePopupsAndDialogs",
+      "input": []
+    },
+    {
+      "name": "chartPropertiesHide",
+      "bridgeName": "Chart$chartPropertiesHide",
+      "input": []
+    },
+    {
+      "name": "objectsTreeHide",
+      "bridgeName": "Chart$objectsTreeHide",
+      "input": []
+    },
+    {
+      "name": "waitTrading",
+      "bridgeName": "Chart$waitTrading",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Object"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "NullDeserializer"]
+      }
+    },
+    {
+      "name": "isTradingEnabled",
+      "bridgeName": "Chart$isTradingEnabled",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": [
+          "Boolean"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "Primitive",
+          "BooleanDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "tradingPanelPopupShow",
+      "bridgeName": "Chart$tradingPanelPopupShow",
+      "input": []
+    },
+    {
+      "name": "alertManagerVisibility",
+      "bridgeName": "Chart$alertManagerVisibility",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "tradingPanelPopupVisible",
+      "bridgeName": "Chart$tradingPanelPopupVisible",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "selectSymbol",
+      "bridgeName": "Chart$selectSymbol",
+      "input": [
+        {
+          "name": "symbolName",
+          "typePackageName": "java.lang",
+          "typeSimpleNames": [
+            "String"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "goToTime",
+      "bridgeName": "Chart$goToTime",
+      "input": [{
+        "name": "time",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Long"]
+      }]
+    },
+    {
+      "name": "selectRange",
+      "bridgeName": "Chart$selectRange",
+      "input": [{
+        "name": "range",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "DateRange"
+        ]
+      }
+      ],
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "DateRangeDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "takeClientScreenshot",
+      "bridgeName": "Chart$takeClientScreenshot",
+      "input": [
+        {
+          "name": "mimeType",
+          "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+          "typeSimpleNames": [
+            "ImageMimeType"
+          ]
+        }
+      ],
+      "callback": {
+        "typePackageName": "android.graphics",
+        "typeSimpleNames": [
+          "Bitmap"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "BitmapDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "getFavoriteLinetools",
+      "bridgeName": "Chart$getFavoriteLinetools",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["LineTools"]
+      },
+      "serializer": {
+        "typePackageName": " com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["LineToolsDeserializer"]
+      }
+    },
+    {
+      "name": "addFavoriteLineTool",
+      "bridgeName": "Chart$addFavoriteLineTool",
+      "input": [
+        {
+          "name": "lineTool",
+          "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+          "typeSimpleNames": ["LineTool"]
+        }
+      ],
+      "serializer": {
+        "typePackageName": " com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["LineToolDeserializer"]
+      }
+    },
+    {
+      "name": "removeFavoriteLineTool",
+      "bridgeName": "Chart$removeFavoriteLineTool",
+      "input": [
+        {
+          "name": "lineTool",
+          "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+          "typeSimpleNames": ["LineTool"]
+        }
+      ],
+      "serializer": {
+        "typePackageName": " com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["LineToolDeserializer"]
+      }
+    },
+    {
+      "name": "requestSelectedLineTool",
+      "bridgeName": "Chart$requestSelectedLineTool",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": [
+          "LineTool"
+        ]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": [
+          "LineToolDeserializer"
+        ]
+      }
+    },
+    {
+      "name": "requestChartBufferData",
+      "bridgeName": "Chart$requestChartBufferData",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["ChartBufferData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["ChartBufferDataDeserializer"]
+      }
+    },
+    {
+      "name": "checkBrokerConnectionStatus",
+      "bridgeName": "Chart$checkBrokerConnectionStatus",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "StringDeserializer"]
+      }
+    },
+    {
+      "name": "requestBrokerData",
+      "bridgeName": "Chart$requestBrokerData",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.model",
+        "typeSimpleNames": ["ChartBrokerData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["BrokerDataResultDeserializer"]
+      }
+    },
+    {
+      "name": "selectLineTool",
+      "bridgeName": "Chart$selectLineTool",
+      "input": [{
+        "name": "lineTool",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["LineTool"]
+      }]
+    },
+    {
+      "name": "startFullscreen",
+      "bridgeName": "Chart$startFullscreen",
+      "input": []
+    },
+    {
+      "name": "exitFullscreen",
+      "bridgeName": "Chart$exitFullscreen",
+      "input": []
+    },
+    {
+      "name": "getActiveChartId",
+      "bridgeName": "Chart$getActiveChartId",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "StringDeserializer"]
+      }
+    },
+    {
+      "name": "takeScreenshot",
+      "bridgeName": "Chart$takeScreenshot",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "StringDeserializer"]
+      }
+    },
+    {
+      "name": "publishChart",
+      "bridgeName": "Chart$publishChart",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Object"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "NullDeserializer"]
+      }
+    },
+    {
+      "name": "publicationDialogState",
+      "bridgeName": "Chart$publicationDialogState",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["PublicationState"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["PublishingStateDeserializer"]
+      }
+    },
+    {
+      "name": "financials",
+      "bridgeName": "Chart$financials",
+      "input": []
+    },
+    {
+      "name": "financialsChartsShow",
+      "bridgeName": "Chart$financialsChartsShow",
+      "input": []
+    },
+    {
+      "name": "templates",
+      "bridgeName": "Chart$templates",
+      "input": []
+    },
+    {
+      "name": "symbolDetail",
+      "bridgeName": "Chart$symbolDetail",
+      "input": []
+    },
+    {
+      "name": "dispatchVisibilityChange",
+      "bridgeName": "Chart$dispatchVisibilityChange",
+      "input": []
+    },
+    {
+      "name": "rejectSymbolSearch",
+      "bridgeName": "Chart$rejectSymbolSearch",
+      "input": []
+    },
+    {
+      "name": "submitSearchSymbol",
+      "bridgeName": "Chart$submitSearchSymbol",
+      "input": [{
+        "name": "symbol",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      }]
+    },
+    {
+      "name": "getCustomIntervals",
+      "bridgeName" : "Chart$getCustomIntervals",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["IntervalsData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["IntervalsDataDeserializer"]
+      }
+    },
+    {
+      "name": "getDefaultIntervals",
+      "bridgeName" : "Chart$getDefaultIntervals",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["IntervalsData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["IntervalsDataDeserializer"]
+      }
+    },
+    {
+      "name": "getIntervals",
+      "bridgeName" : "Chart$getIntervals",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["IntervalsResponse"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["IntervalsResponseDeserializer"]
+      }
+    },
+    {
+      "name": "getFavoriteIntervals",
+      "bridgeName" : "Chart$getFavoriteIntervals",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["IntervalsData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["IntervalsDataDeserializer"]
+      }
+    },
+    {
+      "name": "getFavoriteChartTypes",
+      "bridgeName" : "Chart$getFavoriteChartTypes",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["ChartTypesData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["ChartTypesDataDeserializer"]
+      }
+    },
+    {
+      "name": "isAllDrawingToolsLocked",
+      "bridgeName" : "Chart$isAllDrawingToolsLocked",
+      "input": [],
+      "callback" : {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "isAllDrawingToolsHidden",
+      "bridgeName" : "Chart$isAllDrawingToolsHidden",
+      "input": [],
+      "callback" : {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "getDrawingsData",
+      "bridgeName" : "Chart$getDrawingsData",
+      "input": [],
+      "callback" : {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["DrawingsData"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["DrawingsDataDeserializer"]
+      }
+    },
+    {
+      "name": "requestFavoriteBarVisibility",
+      "bridgeName" : "Chart$requestFavoriteBarVisibility",
+      "input": [],
+      "callback" : {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "isAllIndicatorsHidden",
+      "bridgeName" : "Chart$isAllIndicatorsHidden",
+      "input": [],
+      "callback" : {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "addCustomInterval",
+      "bridgeName" : "Chart$addCustomInterval",
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["AddIntervalResponse"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["AddIntervalResponseStatusDeserializer"]
+      },
+      "input": [{
+        "name": "intervalData",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["IntervalData"]
+      }]
+    },
+    {
+      "name": "isValidInterval",
+      "bridgeName" : "Chart$isValidInterval",
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      },
+      "input": [{
+        "name": "intervalData",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart.intervals",
+        "typeSimpleNames": ["IntervalData"]
+      }]
+    },
+    {
+      "name": "selectInterval",
+      "bridgeName" : "Chart$selectInterval",
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      },
+      "input": [{
+        "name": "interval",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["Interval"]
+      }]
+    },
+    {
+      "name": "removeCustomInterval",
+      "bridgeName": "Chart$removeCustomInterval",
+      "input": [{
+        "name": "interval",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["Interval"]
+      }]
+    },
+    {
+      "name": "addIntervalToFavorites",
+      "bridgeName" : "Chart$addIntervalToFavorites",
+      "input": [{
+        "name": "interval",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["Interval"]
+      }]
+    },
+    {
+      "name": "addChartTypeToFavorites",
+      "bridgeName" : "Chart$addChartTypeToFavorites",
+      "input": [{
+        "name": "chartType",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["ChartType"]
+      }]
+    },
+    {
+      "name": "removeIntervalFromFavorites",
+      "bridgeName" : "Chart$removeIntervalFromFavorites",
+      "input": [{
+        "name": "interval",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["Interval"]
+      }]
+    },
+    {
+      "name": "removeChartTypeFromFavorites",
+      "bridgeName" : "Chart$removeChartTypeFromFavorites",
+      "input": [{
+        "name": "chartType",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["ChartType"]
+      }]
+    },
+    {
+      "name": "setChartTheme",
+      "bridgeName": "Chart$setChartTheme",
+      "input": [{
+        "name": "theme",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.theme",
+        "typeSimpleNames": ["Theme"]
+      }, {
+        "name": "needSaveChart",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      }]
+    },
+    {
+      "name": "setLayoutTheme",
+      "bridgeName": "Chart$setLayoutTheme",
+      "input": [{
+        "name": "theme",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.theme",
+        "typeSimpleNames": ["Theme"]
+      }]
+    },
+    {
+      "name": "isStandardTheme",
+      "bridgeName": "Chart$isStandardTheme",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "setPhoneVerificationSuccessful",
+      "bridgeName": "Chart$setPhoneVerificationSuccessful",
+      "input": []
+    },
+    {
+      "name": "showDateRangeDialog",
+      "bridgeName": "Chart$showDateRangeDialog",
+      "input": []
+    },
+    {
+      "name": "fetchSupportTicketData",
+      "bridgeName": "Chart$fetchSupportTicketData",
+      "input": [{
+        "name": "screenshotAgree",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      }],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["String"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "StringDeserializer"]
+      }
+    },
+    {
+      "name": "closeChartPicker",
+      "bridgeName": "Chart$closeChartPicker",
+      "input": []
+    },
+    {
+      "name": "setForceFullscreenMode",
+      "bridgeName": "Chart$setForceFullscreenMode",
+      "input": []
+    },
+    {
+      "name": "setMultichartMode",
+      "bridgeName": "Chart$setMultichartMode",
+      "input": []
+    },
+    {
+      "name": "showReplayToolbar",
+      "bridgeName": "Chart$showReplayToolbar",
+      "input": []
+    },
+    {
+      "name": "requestBarReplayActiveState",
+      "bridgeName": "Chart$requestBarReplayActiveState",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "hideReplayToolbar",
+      "bridgeName": "Chart$hideReplayToolbar",
+      "input": []
+    },
+    {
+      "name": "saveChartOrShowTitleDialog",
+      "bridgeName": "Chart$saveChartOrShowTitleDialog",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "showRenameChartDialog",
+      "bridgeName": "Chart$showRenameChartDialog",
+      "input": []
+    },
+    {
+      "name": "showSaveAsChartDialog",
+      "bridgeName": "Chart$showSaveAsChartDialog",
+      "input": []
+    },
+    {
+      "name": "showLoadChartDialog",
+      "bridgeName": "Chart$showLoadChartDialog",
+      "input": []
+    },
+    {
+      "name": "changeInterval",
+      "bridgeName": "Chart$changeInterval",
+      "input": [{
+        "name": "interval",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["Interval"]
+      }]
+    },
+    {
+      "name": "changeChartType",
+      "bridgeName": "Chart$changeChartType",
+      "input": [{
+        "name": "chartType",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["ChartType"]
+      }]
+    },
+    {
+      "name": "lockAllDrawingTools",
+      "bridgeName": "Chart$lockAllDrawingTools",
+      "input": []
+    },
+    {
+      "name": "magnetMode",
+      "bridgeName": "Chart$magnetMode",
+      "input": [{
+        "name": "mode",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["MagnetMode"]
+      }],
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["MagnetModeDeserializer"]
+      }
+    },
+    {
+      "name": "getMagnetMode",
+      "bridgeName": "Chart$getMagnetMode",
+      "input": [],
+      "callback": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["MagnetMode"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["MagnetModeDeserializer"]
+      }
+    },
+    {
+      "name": "isMagnetActive",
+      "bridgeName": "Chart$isMagnetActive",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "isStayInDrawingModeActionActive",
+      "bridgeName": "Chart$isStayInDrawingModeActionActive",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "showAllIndicators",
+      "bridgeName": "Chart$showAllIndicators",
+      "input": []
+    },
+    {
+      "name": "hideAllIndicators",
+      "bridgeName": "Chart$hideAllIndicators",
+      "input": []
+    },
+    {
+      "name": "showAllDrawingTools",
+      "bridgeName": "Chart$showAllDrawingTools",
+      "input": []
+    },
+    {
+      "name": "hideAllDrawingTools",
+      "bridgeName": "Chart$hideAllDrawingTools",
+      "input": []
+    },
+  {
+    "name": "showFavoriteDrawingsToolbar",
+    "bridgeName": "Chart$showFavoriteDrawingsToolbar",
+    "input": []
+  },
+  {
+    "name": "hideFavoriteDrawingsToolbar",
+    "bridgeName": "Chart$hideFavoriteDrawingsToolbar",
+    "input": []
+  },
+  {
+    "name": "isFavoriteDrawingsToolbarVisible",
+    "bridgeName": "Chart$isFavoriteDrawingsToolbarVisible",
+    "input": [],
+    "callback": {
+      "typePackageName": "java.lang",
+      "typeSimpleNames": ["Boolean"]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+    {
+      "name": "showDrawingAndIndicators",
+      "bridgeName": "Chart$showDrawingAndIndicators",
+      "input": []
+    },
+    {
+      "name": "hideIndicatorsShowDrawings",
+      "bridgeName": "Chart$hideIndicatorsShowDrawings",
+      "input": []
+    },
+    {
+      "name": "hideDrawingsShowIndicators",
+      "bridgeName": "Chart$hideDrawingsShowIndicators",
+      "input": []
+    },
+    {
+      "name": "showAlertManager",
+      "bridgeName": "Chart$showAlertManager",
+      "input": []
+    },
+    {
+      "name": "hideDrawingAndIndicators",
+      "bridgeName": "Chart$hideDrawingAndIndicators",
+      "input": []
+    },
+    {
+      "name": "magnetDisabled",
+      "bridgeName": "Chart$magnetDisabled",
+      "input": []
+    },
+    {
+      "name": "magnetEnabled",
+      "bridgeName": "Chart$magnetEnabled",
+      "input": []
+    },
+    {
+      "name": "unlockAllDrawingTools",
+      "bridgeName": "Chart$unlockAllDrawingTools",
+      "input": []
+    },
+    {
+      "name": "executeActionById",
+      "bridgeName": "Chart$executeActionById",
+      "input": [{
+        "name": "actionId",
+        "typePackageName": "com.tradingview.tradingviewapp.core.base.model.chart",
+        "typeSimpleNames": ["Action"]
+      }]
+    },
+    {
+      "name": "createAlertDialog",
+      "bridgeName": "Chart$createAlertDialog",
+      "input": []
+    },
+    {
+      "name": "setSymbolSearchUi",
+      "bridgeName": "Chart$setSymbolSearchUi",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Object"]
+      }
+    },
+    {
+      "name": "toggleStayInDrawingModeAction",
+      "bridgeName": "Chart$toggleStayInDrawingModeAction",
+      "input": [],
+      "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      },
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+    {
+      "name": "syncSymbol",
+      "bridgeName": "Chart$syncSymbol",
+      "input": [
+        {
+          "name": "isSyncEnabled",
+          "typePackageName": "java.lang",
+          "typeSimpleNames": ["Boolean"]
+        }
+      ],
+      "serializer": {
+        "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+        "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+      }
+    },
+  {
+    "name": "syncInterval",
+    "bridgeName": "Chart$syncInterval",
+    "input": [
+      {
+        "name": "isSyncEnabled",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      }
+    ],
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+  {
+    "name": "syncCrosshair",
+    "bridgeName": "Chart$syncCrosshair",
+    "input": [
+      {
+        "name": "isSyncEnabled",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      }
+    ],
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+  {
+    "name": "syncTime",
+    "bridgeName": "Chart$syncTime",
+    "input": [
+      {
+        "name": "isSyncEnabled",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      }
+    ],
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+  {
+    "name": "syncDateRange",
+    "bridgeName": "Chart$syncDateRange",
+    "input": [
+      {
+        "name": "isSyncEnabled",
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+      }
+    ],
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+  {
+    "name": "syncSymbolStatus",
+    "bridgeName": "Chart$syncSymbolStatus",
+    "input": [],
+    "callback": {
+        "typePackageName": "java.lang",
+        "typeSimpleNames": ["Boolean"]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+  {
+    "name": "syncIntervalStatus",
+    "bridgeName": "Chart$syncIntervalStatus",
+    "input": [],
+    "callback": {
+      "typePackageName": "java.lang",
+      "typeSimpleNames": ["Boolean"]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+  {
+    "name": "syncCrosshairStatus",
+    "bridgeName": "Chart$syncCrosshairStatus",
+    "input": [],
+    "callback": {
+      "typePackageName": "java.lang",
+      "typeSimpleNames": ["Boolean"]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+  {
+    "name": "syncTimeStatus",
+    "bridgeName": "Chart$syncTimeStatus",
+    "input": [],
+    "callback": {
+      "typePackageName": "java.lang",
+      "typeSimpleNames": ["Boolean"]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  },
+  {
+    "name": "syncDateRangeStatus",
+    "bridgeName": "Chart$syncDateRangeStatus",
+    "input": [],
+    "callback": {
+      "typePackageName": "java.lang",
+      "typeSimpleNames": ["Boolean"]
+    },
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "BooleanDeserializer"]
+    }
+  }
+],
+  "defaults": {
+    "serializer": {
+      "typePackageName": "com.tradingview.tradingviewapp.core.js.deserializer",
+      "typeSimpleNames": ["Primitive", "NullDeserializer"]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<script>
+    function resize() {
+        var iframe=document.firstChild.lastChild.children[0]
+        var iframeDoc = iframe.contentWindow.document
+        var v=iframeDoc.getElementById('fl-layout-wrapper')
+        iframe.height = v.scrollHeight
+        AndroidGetHeightFunction.resize(v.scrollHeight);
+    }
+</script>

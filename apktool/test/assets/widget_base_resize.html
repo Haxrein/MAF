@@ -1,0 +1,22 @@
+<script>
+    function resize() {
+        var xbody=document.documentElement.getElementsByTagName('body')[0];
+
+        var totalH = 0;
+        var element = document.documentElement.getElementsByTagName('iframe')[0];
+        var err = null;
+
+        totalH = element.contentWindow.document.body.scrollHeight;
+        if (totalH==0){
+            totalH=element.scrollHeight;
+        } else {
+            element.style.height=totalH;
+            xbody.style.height=totalH;
+        }
+
+        var width = element.scrollWidth;
+        console.log({height: totalH});
+
+        AndroidGetHeightFunction.resize(totalH);
+    }
+</script>

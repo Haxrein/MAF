@@ -1,0 +1,30 @@
+<script>
+    function resize() {
+        var body=document.documentElement.getElementsByClassName('body');
+        var maxWidth=body.scrollWidth;
+
+        var fbpost=document.documentElement.getElementsByClassName('fb-post')[0];
+        var w, h;
+
+        if (fbpost!=null){
+            h = fbpost.scrollHeight;
+            w = fbpost.scrollWidth;
+        } else {
+            var totalH = 10;
+            var elements = document.documentElement.getElementsByTagName('iframe');
+
+            if (elements.length==0){
+                h=300;
+                w=300;
+            } else {
+                for(var i = 0; i < elements.length; i++){
+                    totalH = totalH + parseInt(elements[i].scrollHeight);
+                }
+
+                h = totalH;
+                w = elements[0].scrollWidth;
+            }
+        }
+        AndroidGetHeightFunction.resize(h);
+    }
+</script>

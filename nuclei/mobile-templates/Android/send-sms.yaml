@@ -1,0 +1,15 @@
+id: send-sms
+
+info:
+  name: adb abi
+  author: MAF
+  severity: low
+
+file:
+  - extensions:
+       - all
+
+    matchers:
+      - type: word
+        words:
+          - "uses-permission"

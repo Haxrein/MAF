@@ -1,0 +1,13 @@
+<script>
+    function resize() {
+        var xbody=document.documentElement.getElementsByTagName('body')[0];
+
+        var name='playbuzz';
+        var v=document.getElementsByClassName(name)[0];
+        if (v==null){
+            name='exco';
+            v=document.getElementsByClassName(name)[0];
+        }
+        AndroidGetHeightFunction.resize(v.scrollHeight);
+    }
+</script>

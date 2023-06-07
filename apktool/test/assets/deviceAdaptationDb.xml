@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perftracker>
+    <!-- values used by default unless overriden by specific limits -->
+    <limits_per_score>
+        <limit>
+            <score>0</score>
+            <bitrate>500</bitrate>
+        </limit>
+        <limit>
+            <score>1</score>
+            <bitrate>700</bitrate>
+        </limit>
+        <limit>
+            <score>2</score>
+            <bitrate>1000</bitrate>
+        </limit>
+        <limit>
+            <score>3</score>
+            <bitrate>2000</bitrate>
+        </limit>
+        <limit>
+            <score>4</score>
+            <bitrate>2500</bitrate>
+        </limit>
+        <limit>
+            <score>5</score>
+            <bitrate>3000</bitrate>
+        </limit>
+        <limit>
+            <score>6</score>
+            <bitrate>3500</bitrate>
+        </limit>
+        <limit>
+            <score>7</score>
+            <bitrate>4000</bitrate>
+        </limit>
+    </limits_per_score>
+
+    <!-- Max bitrate limit to use when hardware decoding is available, unless overridden by specific value per device id -->
+    <hw_bitrate>99999</hw_bitrate>
+
+    <!-- Fallback value to use when everything else has "failed" -->
+    <fallback_bitrate>1000</fallback_bitrate>
+
+    <!-- Limits to use for a list of specific device ids. When available for an id, this value has ABSOLUTE priority over any other -->
+    <limit_per_ids>
+        <hw_bitrate>1800</hw_bitrate>
+        <apply_to_ids>
+<!--<GalaxyTab 10.1-->
+            <id>GT-P7100</id>
+            <id>GT-P7500</id>
+            <id>GT-P7500D</id>
+            <id>GT-P7500R</id>
+            <id>GT-P7501</id>
+            <id>GT-P7510</id>
+            <id>GT-P7511</id>
+            <id>SCH-I905</id>
+<!--<End GalaxyTab 10.1-->
+            <id>HTC Desire HD A9191</id>
+            <id>HTC Sensation 2710E</id>
+            <id>HTC Sensation X315</id>
+            <id>HTC Sensation Z710e</id>
+        </apply_to_ids>
+    </limit_per_ids>
+
+    <limit_per_ids>
+        <hw_bitrate>8500</hw_bitrate>
+        <apply_to_ids>
+<!--<Galaxy S3-->
+            <id>GT-I9300</id>
+<!--<End Galaxy S3-->
+        </apply_to_ids>
+    </limit_per_ids>
+
+    <!-- Limits to use for a list of specific device ids. When available for an id, this value has ABSOLUTE priority over any other -->
+    <limit_per_ids>
+        <sw_bitrate>1000</sw_bitrate>
+        <apply_to_ids>
+            <id>HTC Sensation 2710E</id>
+            <id>HTC Sensation X315</id>
+            <id>HTC Sensation Z710e</id>
+        </apply_to_ids>
+    </limit_per_ids>
+
+    <!-- Limits to use for a list of specific device ids. When available for an id, this value has ABSOLUTE priority over any other -->
+    <limit_per_ids>
+        <hw_bitrate>1100</hw_bitrate>
+        <apply_to_ids>
+            <id>HTC Desire</id>
+        </apply_to_ids>
+    </limit_per_ids>
+
+    <!-- Nokia_X -->
+    <limit_per_ids>
+        <hw_bitrate>2000</hw_bitrate>
+        <apply_to_ids>
+            <id>Nokia_X</id>
+        </apply_to_ids>
+    </limit_per_ids>
+
+    <!-- GalaxyTab 3 10.1 / Intel Platform -->
+    <limit_per_ids>
+        <sw_bitrate>1600</sw_bitrate>
+        <apply_to_ids>
+            <id>GT-P5210</id>
+        </apply_to_ids>
+    </limit_per_ids>
+
+    <!--<GS II GB 2.3.x and updates-->
+    <limit_per_ids>
+        <hw_bitrate>2800</hw_bitrate>
+        <sw_bitrate>1900</sw_bitrate>
+        <android_versions>
+            <level>9</level>
+            <level>10</level>
+            <level>14</level>
+            <level>15</level>
+            <level>16</level>
+            <level>17</level>
+        </android_versions>
+        <apply_to_ids>
+            <id>GT-I9100</id>
+            <id>GT-I9100M</id>
+            <id>GT-I9100P</id>
+            <id>GT-I9100T</id>
+            <id>SC-02C</id>
+            <id>SGH-I777</id>
+            <id>SHW-M250K</id>
+            <id>SHW-M250L</id>
+            <id>SHW-M250S</id>
+        </apply_to_ids>
+    </limit_per_ids>
+
+<!-- ****************************************** -->
+<!-- See below how to add other specific values -->
+<!-- ****************************************** -->
+
+    <!-- Limits to use for a list of specific device ids. When available for an id, this value has ABSOLUTE priority over any other -->
+    <limit_per_ids>
+        <!--sets the bitrate limit for a specific device (applicable for both HW and SW codecs mode) -->
+        <bitrate>8000</bitrate>
+        <!-- Android version (API level), if absent, applies to all android versions -->
+        <!--<android_versions>
+            <level>10</level>
+            <level>11</level>
+            <level>13</level>
+            <level>14</level>
+            <level>15</level>
+            <level>16</level>
+        </android_versions>-->
+        <apply_to_ids>
+            <id>example-id</id>
+        </apply_to_ids>
+    </limit_per_ids>
+
+    <limit_per_ids>
+        <!--sets 2 different bitrate limits : for SW codecs mode and HW codecs mode-->
+        <sw_bitrate>500</sw_bitrate>
+        <hw_bitrate>8000</hw_bitrate>
+        <!-- Android version (API level), if absent, applies to all android versions -->
+        <!--<android_versions>
+            <level>10</level>
+            <level>11</level>
+            <level>13</level>
+            <level>14</level>
+            <level>15</level>
+            <level>16</level>
+        </android_versions>-->
+        <apply_to_ids>
+            <id>example-id</id>
+        </apply_to_ids>
+    </limit_per_ids>
+
+<!-- ****************************************** -->
+
+</perftracker>

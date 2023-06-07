@@ -1,0 +1,340 @@
+[
+  {
+    "country": "US",
+    "exchanges": [
+      "NYSE",
+      "AMEX",
+      "NASDAQ",
+      "BATS",
+      "OTC",
+      "GLOBEX",
+      "CBOT",
+      "COMEX",
+      "NYMEX"
+    ]
+  },
+  {
+    "country": "AR",
+    "exchanges": [
+      "BCBA"
+    ]
+  },
+  {
+    "country": "AU",
+    "exchanges": [
+      "ASX"
+    ]
+  },
+  {
+    "country": "BR",
+    "exchanges": [
+      "BMFBOVESPA"
+    ]
+  },
+  {
+    "country": "CA",
+    "exchanges": [
+      "TSX",
+      "TSXV",
+      "CSE"
+    ]
+  },
+  {
+    "country": "FR",
+    "exchanges": [
+      "EURONEXT"
+    ]
+  },
+  {
+    "country": "NL",
+    "exchanges": [
+      "EURONEXT"
+    ]
+  },
+  {
+    "country": "PT",
+    "exchanges": [
+      "EURONEXT"
+    ]
+  },
+  {
+    "country": "BE",
+    "exchanges": [
+      "EURONEXT"
+    ]
+  },
+  {
+    "country": "DE",
+    "exchanges": [
+      "FWB",
+      "SWB",
+      "XETR"
+    ]
+  },
+  {
+    "country": "GR",
+    "exchanges": [
+      "ATHEX"
+    ]
+  },
+  {
+    "country": "HK",
+    "exchanges": [
+      "HKEX"
+    ]
+  },
+  {
+    "country": "IN",
+    "exchanges": [
+      "BSE",
+      "NSE"
+    ]
+  },
+  {
+    "country": "IT",
+    "exchanges": [
+      "MIL"
+    ]
+  },
+  {
+    "country": "JP",
+    "exchanges": [
+      "FSE",
+      "NAG",
+      "SSE",
+      "TFX",
+      "TOCOM",
+      "TSE"
+    ]
+  },
+  {
+    "country": "MX",
+    "exchanges": [
+      "BMV"
+    ]
+  },
+  {
+    "country": "KR",
+    "exchanges": [
+      "KRX"
+    ]
+  },
+  {
+    "country": "NZ",
+    "exchanges": [
+      "NZX"
+    ]
+  },
+  {
+    "country": "PL",
+    "exchanges": [
+      "GPW"
+    ]
+  },
+  {
+    "country": "RU",
+    "exchanges": [
+      "MOEX"
+    ]
+  },
+  {
+    "country": "SG",
+    "exchanges": [
+      "SGX"
+    ]
+  },
+  {
+    "country": "SK",
+    "exchanges": [
+      "BSSE"
+    ]
+  },
+  {
+    "country": "ES",
+    "exchanges": [
+      "BME"
+    ]
+  },
+  {
+    "country": "CH",
+    "exchanges": [
+      "SIX"
+    ]
+  },
+  {
+    "country": "PH",
+    "exchanges": [
+      "PSE"
+    ]
+  },
+  {
+    "country": "TW",
+    "exchanges": [
+      "TWSE"
+    ]
+  },
+  {
+    "country": "TR",
+    "exchanges": [
+      "BIST"
+    ]
+  },
+  {
+    "country": "IL",
+    "exchanges": [
+      "TASE"
+    ]
+  },
+  {
+    "country": "GB",
+    "exchanges": [
+      "LSE",
+      "LSIN"
+    ]
+  },
+  {
+    "country": "CL",
+    "exchanges": [
+      "BCS"
+    ]
+  },
+  {
+    "country": "CN",
+    "exchanges": [
+      "SZSE",
+      "SSE"
+    ]
+  },
+  {
+    "country": "MY",
+    "exchanges": [
+      "MYX"
+    ]
+  },
+  {
+    "country": "EG",
+    "exchanges": [
+      "EGX"
+    ]
+  },
+  {
+    "country": "PE",
+    "exchanges": [
+      "BVL"
+    ]
+  },
+  {
+    "country": "CO",
+    "exchanges": [
+      "BVC"
+    ]
+  },
+  {
+    "country": "AE",
+    "exchanges": [
+      "DFM"
+    ]
+  },
+  {
+    "country": "NG",
+    "exchanges": [
+      "NSENG"
+    ]
+  },
+  {
+    "country": "RS",
+    "exchanges": [
+      "BELEX"
+    ]
+  },
+  {
+    "country": "BH",
+    "exchanges": [
+      "BAHRAIN"
+    ]
+  },
+  {
+    "country": "SA",
+    "exchanges": [
+      "TADAWUL"
+    ]
+  },
+  {
+    "country": "ID",
+    "exchanges": [
+      "IDX"
+    ]
+  },
+  {
+    "country": "QA",
+    "exchanges": [
+      "QSE"
+    ]
+  },
+  {
+    "country": "FI",
+    "exchanges": [
+      "OMXHEX"
+    ]
+  },
+  {
+    "country": "IS",
+    "exchanges": [
+      "OMXICE"
+    ]
+  },
+  {
+    "country": "DK",
+    "exchanges": [
+      "OMXCOP"
+    ]
+  },
+  {
+    "country": "SE",
+    "exchanges": [
+      "OMXSTO"
+    ]
+  },
+  {
+    "country": "LT",
+    "exchanges": [
+      "OMXVSE"
+    ]
+  },
+  {
+    "country": "EE",
+    "exchanges": [
+      "OMXTSE"
+    ]
+  },
+  {
+    "country": "LV",
+    "exchanges": [
+      "OMXRSE"
+    ]
+  },
+  {
+    "country": "VN",
+    "exchanges": [
+      "HOSE"
+    ]
+  },
+  {
+    "country": "ZA",
+    "exchanges": [
+      "JSE"
+    ]
+  },
+  {
+    "country": "TH",
+    "exchanges": [
+      "SET"
+    ]
+  },
+  {
+    "country": "NO",
+    "exchanges": [
+      "OSL"
+    ]
+  }
+]
