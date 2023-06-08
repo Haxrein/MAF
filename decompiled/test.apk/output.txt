@@ -1,7 +1,7 @@
 [adb-backup-enabled] [file] [low] ..\decompiled\test.apk\AndroidManifest.xml
 [biometric-detect] [file] [info] ..\decompiled\test.apk\AndroidManifest.xml
-[dynamic-registered-broadcast-receiver] [file] [info] ..\decompiled\test.apk\smali\com\squareup\picasso\Dispatcher$NetworkBroadcastReceiver.smali
-[send-sms] [file] [low] ..\decompiled\test.apk\AndroidManifest.xml
 [s3-bucket] [file] [info] ..\decompiled\test.apk\assets\didomi_iab_config.json [static.tabmo.io.s3.amazonaws.com]
 [s3-bucket] [file] [info] ..\decompiled\test.apk\assets\didomi_iab_config_v2.json [static.tabmo.io.s3.amazonaws.com]
 [s3-bucket] [file] [info] ..\decompiled\test.apk\output.txt [static.tabmo.io.s3.amazonaws.com]
+[dynamic-registered-broadcast-receiver] [file] [info] ..\decompiled\test.apk\smali\com\squareup\picasso\Dispatcher$NetworkBroadcastReceiver.smali
+[send-sms] [file] [low] ..\decompiled\test.apk\AndroidManifest.xml

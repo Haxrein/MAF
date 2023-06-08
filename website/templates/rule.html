@@ -139,6 +139,7 @@
           <th scope="col">Severity</th>
           <th scope="col">Type</th>
           <th scope="col">Words</th>
+          <th scope="col">Options</th>
         </tr>
       </thead>
       <!-- <tbody>
@@ -171,6 +172,9 @@
           <td> {{rulesev[x]}} </td>
           <td> {{ruletype[x]}} </td>
           <td> {{rulewords[x]}} </td>
+          <form action="/delrule" method="POST">
+            <td><button id="btnSearch" name="btnremover" class="btn btn-outline-danger btn-sm" type="submit" value="{{dbid[x]}}">Remove</button></td>
+          </form>
         </tr>
         {% endfor %} 
         {%endif%}

@@ -15,6 +15,35 @@ app = Flask(__name__)
 def main():
      return render_template('index.html')
 
+
+
+@app.route('/delrule', methods=['POST'])
+def delrule():
+     if request.method == 'POST':
+          rule_id = request.form['btnremover']
+
+          con = sqlite3.connect("../rules.db")
+          con.row_factory = sqlite3.Row
+          cur = con.cursor()
+          cur.execute('SELECT * FROM rules WHERE id = ?', (rule_id,))
+          rows = cur.fetchall()
+
+          rule_name = ""
+          for item in rows:
+               rule_name = item[1]
+
+          con = sqlite3.connect("../rules.db")
+          con.row_factory = sqlite3.Row
+          cur = con.cursor()
+          cur.execute('DELETE FROM rules WHERE id = ?', (rule_id,))
+          con.commit()
+
+          if os.path.exists("../nuclei/mobile-templates/Android/" + rule_name + ".yaml"): 
+               os.remove("../nuclei/mobile-templates/Android/" + rule_name + ".yaml")
+
+          resp = redirect("/rule")
+          return resp
+
 @app.route('/rule')
 def rule():
 
@@ -24,12 +53,14 @@ def rule():
      cur.execute('SELECT * FROM rules')
      rows = cur.fetchall()
 
+     dbid = []
      ruleid = []
      rulename = []
      rulesev = []
      ruletype = []
      rulewords = []
      for item in rows:
+          dbid.append(item[0])
           ruleid.append(item[1])
           rulename.append(item[2])
           rulesev.append(item[3])
@@ -38,7 +69,7 @@ def rule():
 
      lenlist = len(ruleid)
 
-     return render_template('rule.html', ruleid=ruleid, rulename=rulename, rulesev=rulesev, ruletype=ruletype, rulewords=rulewords,lenlist=lenlist )
+     return render_template('rule.html', ruleid=ruleid, rulename=rulename, rulesev=rulesev, ruletype=ruletype, rulewords=rulewords,lenlist=lenlist, dbid=dbid)
 
 
 @app.route('/addrule', methods=['POST'])
