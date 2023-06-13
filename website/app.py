@@ -6,6 +6,7 @@ import hashlib
 import sqlite3
 from datetime import date,datetime
 import threading
+from androguard.misc import apk
 sys.path.append('..')
 
 app = Flask(__name__)
@@ -198,7 +199,6 @@ def run_analysis(fpath,filename):
 def upload_file():
      if request.method == 'POST':
           f = request.files['file']
-          print("asd-- ",f)
 
           if len(f.filename) != 0:
                f.save("uploads/"+secure_filename(f.filename))
@@ -295,6 +295,14 @@ def report():
                elif sevlevel == "[high]":
                     severity_high = severity_high + 1
 
+          
+          apk_path = "uploads\\" + apkname
+          apk1 = apk.APK(apk_path)
+          per_list = apk1.get_permissions()
+          a_mainact = apk1.get_main_activity()
+          a_package = apk1.get_package()
+          lenper = len(per_list)
 
-          return render_template('reports.html', apkname=apkname, ilen=ilen, info=info, itype=itype, severity=severity, ipath=ipath, ipoc=ipoc, severity_info=severity_info, severity_low=severity_low, severity_medium=severity_medium,severity_high=severity_high)
+          return render_template('reports.html', apkname=apkname, ilen=ilen, info=info, itype=itype, severity=severity, ipath=ipath, ipoc=ipoc, severity_info=severity_info, severity_low=severity_low, severity_medium=severity_medium,severity_high=severity_high, per_list=per_list, lenper=lenper,
+                                a_mainact=a_mainact, a_package=a_package)
         

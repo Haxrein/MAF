@@ -100,6 +100,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     
   <br><br><br>
+
+  <div class="container">
+    <table class="table">
+      <div class="center"><h3>APK Details</h3></div>
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">Package Name</th>
+          <th scope="col">Main Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{a_package}}</td>
+          <td>{{a_mainact}}</td>
+        </tr>
+  
+      </tbody>
+  
+    </table>
+</div>
   
 <div class="container">
   <div class="center"><h4>{{apkname}} Severity Report</h4></div><br>
@@ -180,6 +200,26 @@
     
       </table>
   </div>
+
+  <div class="container">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">Permissions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for x in range(lenper): %}
+        <tr>
+          <td> {{per_list[x]}} </td>
+        </tr>
+        {% endfor %} 
+  
+      </tbody>
+  
+    </table>
+</div>
+
   <br><br><br>
 
     <div class="footer">
